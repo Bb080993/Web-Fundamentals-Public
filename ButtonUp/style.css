@@ -1,0 +1,30 @@
+#search{
+    color: darkturquoise;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid darkturquoise;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 1%;
+}
+
+#add{
+    color: white;
+    background-color: darkturquoise;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 1%;
+
+
+
+}
+
+#create-account{
+    color: white;
+    background-color: royalblue;
+    border: 1px solid black;
+    margin: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 2px 2px  black;
+}

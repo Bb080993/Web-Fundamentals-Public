@@ -1,0 +1,32 @@
+h1 {
+    background-color: black;
+    text-align: left;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+.color1{
+    color: white;
+    font-weight: bold;
+}
+.color2 {
+    color:aqua;
+    font-weight: bold;
+}
+
+
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+h3{
+    background-color: cornflowerblue;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-family:Comic Sans MS;
+}
