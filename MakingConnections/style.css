@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main {
+    width: 500px;
+    height: 300 px;
+    border: 1px solid black;
+    margin: 50px 50px 0px 100px;
+    padding: 30px 10px 10px 10px;
+    background-image: linear-gradient(0deg, white 78%, rgb(12, 160, 194) 22%);
+}
+
+.location {
+    display: flex;
+    justify-content: row;
+    font-size: small;
+}
+
+.profilePic {
+    width: 50px;
+}
+
+.mapMarker {
+    width: 20px;
+}
+
+.gear {
+    width: 20px;
+}
+
+#navBar {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topLeft {
+    display: flex;
+    align-items: center;   
+}
+
+#topNav {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#topRight {
+    display: flex;
+    align-items: center;
+    
+   
+}
+button {
+    background-color: rgb(12, 160, 194);
+    color: white;
+    width: 75px;
+    height: 25px;
+    margin: 0px 130px 0px 0px;
+   
+}
+.grey {
+    color: rgb(173, 168, 168);
+}
+
+#bottomLeft {
+    width: 500px;
+    height: 300 px;
+    border: 1px solid black;
+    margin: 50px 50px 50px 100px;
+}
+
+#bottomLeftNav {
+    background-color: rgb(92, 89, 89);
+    color: white;
+    padding: 10px;
+}
+
+#aboutMe {
+    padding: 10px;
+}
+
+.userImg {
+    width: 30px;
+}
+#connectionRequests {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 250px 10px 100px
+}
+#connectionRequestsNav {
+    background-color: rgb(92, 89, 89);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#number {
+    border: 1px solid black;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: rgb(92, 89, 89);
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+}
+#newConnections{
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+}
+#right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+#yourConnections {
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px 250px 50px 10px;
+    
+}
+#yourConnectionNav {
+    background-color: rgb(92, 89, 89);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#oldConnections {
+    padding: 10px;
+}
+
+#friends {
+    border: 1px solid black;
+    padding: 2px;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    color: rgb(92, 89, 89);
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+}
+#viewMore {
+    border-top: 1px solid black;
+    padding: 10px;
+}
+#body {
+    display: flex;
+    
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav id="navBar">
+        <div id="topLeft">
+            <h1>Profile</h1>
+            <ul id="topNav">
+                <li class="grey">Home</li>
+                <li>My Profile</li>
+                <li class="grey">Connections</li>
+            </ul>
+        </div>
+        <div id="topRight">
+           <button>Sign Out</button> 
+        </div>
+    </nav>
+    <div id="body">
+        <div id="left">
+            <div class="main">
+                <img src="icons 2/user-circle.png" alt="Profile Pic" class="profilePic">
+                <h1 id="profileName">Jane Doe</h1>
+                <div class="location">
+                 <img src="icons 2/map-marker.png" alt="Map Marker" class="mapMarker">
+                <h2>Seattle</h2>   
+                </div>
+                <p>Developer | Engineer | Problem Solver</p>
+                <p>Master of Shadows and the Internet!</p>
+                <img src="icons 2/gear.png" alt="Gear" class="gear">
+                <a href="#" onclick="changeName()">edit profile</a>
+            </div>
+            <div id="bottomLeft">
+                <nav id="bottomLeftNav">
+                    <h3>Education</h3>
+                </nav>
+                <div id="aboutMe">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <p>Dec 2019 - March 2020</p>
+                    <p>Triple Black Belt in Python, MERN, and C#</p>
+                </div>
+            </div> 
+        </div>
+        <div id="right">
+            <div id="connectionRequests">
+                <nav id="connectionRequestsNav">
+                    <h3 id="number">2</h3>
+                    <h3>Connection Requests</h3>
+                </nav>
+                <div id="newConnections">
+                    <ul>
+                        <li id="connection1"> <img src="images/todd-s.jpg" alt="Todd" class="userImg"> Todd E <img src="icons 2/accept-circle.png" alt="Accept Circle" class="userImg" onclick="addConnection('#connection1')"> <img src="icons 2/close-circle.png" alt="Close Circle" class="userImg" onclick="removeConnection('#connection1')" ></li>
+                        <li id="connection2"> <img src="images/phil-s.jpg" alt="Phil" class="userImg"> Phil K <img src="icons 2/accept-circle.png" alt="Accept Circle" class="userImg" onclick="addConnection('#connection2')" > <img src="icons 2/close-circle.png" alt="Close Circle" class="userImg" onclick="removeConnection('#connection2')" > </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="yourConnections">
+                <nav id="yourConnectionNav">
+                    <h3 ><span id="friends">500</span>+</h3>
+                    <h3>Your Connections</h3>
+                </nav>
+                <div id="oldConnections">
+                    <ul>
+                      <li> <img src="images/adrien-s.jpg" alt="Adrien" class="userImg" >Adrien D</li>
+                      <li> <img src="images/anne-s.jpg" alt="Anne" class="userImg" >Anne</li>
+                      <li> <img src="images/alayne-s.jpg" alt="Alayne" class="userImg" >Alayne T</li>
+                      <li> <img src="images/arry-s.jpg" alt="Arry" class="userImg">Arry Y</li>
+                    </ul>
+                </div>
+                <div id="viewMore">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

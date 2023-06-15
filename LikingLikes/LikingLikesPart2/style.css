@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 670px;
+    
+}
+nav {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+}
+img {
+    width: 50px;
+    display: block;
+}
+#yourFeed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+#left {
+    border: 1px solid black;
+    margin-left: 15px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#right {
+    margin-right: 15px;
+
+}
+#top{
+    border: 1px solid black;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 15px ;
+}
+#Neil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+#middle{
+    border: 1px solid black;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#Nichole {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+#bottom{
+    border: 1px solid black;
+    height: 100px;
+    padding: 10px;
+}
+
+#Jim{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.about {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+button{
+    width: 50px;
+    background-color: gold;
+    color: black;
+    box-shadow: 2px 2px black;
+    border: 1px solid black;
+}
