@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <div>
+            <div class="city">
+                <a href="#" onclick="loadingReport()">Burbank</a>
+                <a href="#" onclick="loadingReport()">Chicago</a>
+                <a href="#" onclick="loadingReport()">Dallas</a>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="top">
+            <h2>San Jose</h2>
+            <div class="tempChange">
+                <p>show temperature in</p>
+                <form>
+                   <select name="temperature" id="temp" onchange="convertTemp(this)">
+                        <option value="celsius">C°</option>
+                        <option value="fahrenheit">F°</option>
+                    </select>  
+                </form>
+            </div>
+        </div>
+        <div class="weather">
+            <div class="weather1">
+                <h3>Today</h3>
+                <img src="assets/assets/some_rain.png" alt="some rain" class="weatherImg">
+                <p>some rain</p>
+                <div class="celciusTemp">
+                    <p class="red degree" id="temp1">24</p> 
+                    <p class="blue degree" id="temp2">18</p>
+                </div>
+            </div>
+            <div class="weather2">
+                <h3>Tomorrow</h3>
+                <img src="assets/assets/some_sun.png" alt="some sun" class="weatherImg">
+                <p>some sun</p>
+                <div class="celciusTemp">
+                    <p class="red degree" id="temp3">27</p> 
+                    <p class="blue degree" id="temp4">19</p>
+                </div>
+            </div>
+            <div class="weather3">
+                <h3>Friday</h3>
+                <img src="assets/assets/some_clouds.png" alt="some clouds" class="weatherImg">
+                <p>some clouds</p>
+                <div class="celciusTemp">
+                    <p class="red degree" id="temp5">21</p> 
+                    <p class="blue degree" id="temp6">16</p>
+                </div>
+            </div>
+            <div class="weather4">
+                <h3>Saturday</h3>
+                <img src="assets/assets/some_sun.png" alt="some sun" class="weatherImg">
+                <p>some sun</p>
+                <div class="celciusTemp">
+                    <p class="red degree" id="temp7">26</p> 
+                    <p class="blue degree" id="temp8">21</p>
+                </div>
+            </div>
+        </div>
+        <div id="popUp">
+            <h2>Stop! Cookie time</h2>
+            <div id="bottom">
+                <img src="assets/assets/cookie.png" alt="Cookie" id="cookie">
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#" id="readMore">Read more...</a></p>
+                <button onclick="removePopup()">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
